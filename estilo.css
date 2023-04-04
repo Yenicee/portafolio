@@ -1,84 +1,123 @@
-*{
+* {
     padding: 0;
     margin: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
 
-h1{
+h1 {
     text-align: center;
-   margin-top: 70px;
-   font-family: 'Josefin Sans', sans-serif;
-   
-   
+    margin-top: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
 }
 
-p{
+p {
     text-align: center;
     font-size: 18px;
-    
+
 }
 
-.color{
-    background-image: linear-gradient(rgb(100, 215, 240),rgb(9, 78, 79));
+.color {
+    background-image: linear-gradient(rgb(100, 215, 240), rgb(5, 48, 48));
     box-shadow: 8px 8px rgb(200, 229, 239);
     border: 10px;
     padding: 10px;
+    width: 50px opx;
+
 
 }
 
-.color1{
-     color: rgb(28, 180, 180);
-     font-size: 20px;
+.color1 {
+    color: rgb(28, 180, 180);
+    font-size: 20px;
     font-weight: 600;
 }
 
-.letras{
+.letras {
     text-align: center;
     text-indent: 20px;
     font-size: 20px;
-    color:white;
+    color: white;
     margin: 40px;
-    
-
 }
 
-h2{
+
+h2 {
     text-align: center;
-    font-family:'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: rgb(39, 34, 34);
     font-weight: 400;
 }
 
-.colum{
+.colum {
     border: 15px;
     padding: 15px;
 }
 
-.vanesa{
+.vanesa {
     background-color: rgb(26, 66, 66);
     border-radius: 5px;
     padding: 40px;
     margin-top: 40px;
-   
+
 }
 
-.palabra{
+.palabra {
     color: white;
     font-size: 15px;
 }
 
-.palabra1{
+.palabra1 {
     font-size: 20px;
-    color: white; 
+    color: white;
 }
 
-.yerba{
+.yerba {
     margin: 50px;
     padding: 50px;
 }
 
-.colum1{
-    margin: 6 init0px;
+/* estos elementos centran nuestras cajas*/
+
+.colum1 {
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.arreglo {
+    background-color: rgb(191, 222, 212);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    align-self: center;
+}
+
+.impresora {
+    margin: 10px;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center ul{
+    list-style:none;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center ul li{
+    padding: 5px;
+    margin: 5px;
 }
