@@ -17,7 +17,6 @@ h1 {
 p {
     text-align: center;
     font-size: 18px;
-
 }
 
 .color {
@@ -76,8 +75,8 @@ h2 {
 }
 
 .yerba {
-    margin: 50px;
-    padding: 50px;
+   margin: 5px;
+   padding: 0 5px;
 }
 
 /* estos elementos centran nuestras cajas*/
@@ -120,4 +119,12 @@ h2 {
 .center ul li{
     padding: 5px;
     margin: 5px;
+}
+
+.ajustar{
+    
+    margin: 20px;
+    padding: 0 10px;
+    border: 10px;
+    background-color: aliceblue;
 }
